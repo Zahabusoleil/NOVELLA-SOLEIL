@@ -1,0 +1,55 @@
+
+  * General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #26a928;
+    color: #333;
+}
+
+header {
+    background-color: #1ba28b;
+    color: rgb(25, 170, 90);
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav a {
+    color: white
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}.container {
+    width: 30%;
+    margin: auto;
+    padding: 20px 0;
+}
+
+h1, h2, h3 {
+    color: #2d6cdf;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
+}
+img {
+    max-width: 70%;
+   height:auto;
+}
+
+
+
