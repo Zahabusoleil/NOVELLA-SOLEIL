@@ -1,47 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Inyange Industries</title>
+    <title>Contact - Inyange Industry</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
 <header>
-    <h1>Contact Us</h1>
+    <img src="images/logo.png" alt="Inyange Logo">
     <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="services.html">Products</a>
-        <a href="team.html">Team</a>
-        <a href="contact.html">Contact</a>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
     </nav>
 </header>
 
-<div class="container">
-    <h2>Get in Touch</h2>
-    <p>Email: info@inyangeindustries.com</p>
-    <p>Phone: +250 788 123 456</p>
-    <p>Address: Kigali, Rwanda</p>
+<section>
+    <h2>Contact Us</h2>
 
-    <h3>Send Us a Message</h3>
-    <form>
-        <label for="name">Name:</label><br>
-        <input type="text" id="name" name="name" required><br><br>
+    <form action="https://formsubmit.co/YOUR_EMAIL" method="POST">
+        <input type="text" name="name" placeholder="Your Name" required>
 
-        <label for="email">Email:</label><br>
-        <input type="email" id="email" name="email" required><br><br>
+        <input type="email" name="email" placeholder="Your Email" required>
 
-        <label for="message">Message:</label><br>
-        <textarea id="message" name="message" rows="5" required></textarea><br><br>
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
 
-        <button type="submit">Send</button>
+        <button type="submit">Send Message</button>
     </form>
-</div>
+</section>
 
 <footer>
-    &copy; 2025 Inyange Industries. All rights reserved.
+    © 2025 Inyange Industry – Rwanda
 </footer>
+
 </body>
 </html>
+
 
